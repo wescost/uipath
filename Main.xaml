@@ -1,0 +1,178 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="786,1378" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
+      <x:Boolean x:Key="ShouldCollapseAll">True</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <Sequence sap:VirtualizedContainerService.HintSize="476,1313" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Default="John Foe" Name="userName" />
+      <Variable x:TypeArguments="x:String" Name="unicornName" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsPinned">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="434,51" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="434,238" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="What is your name" Title="Your Name">
+            <ui:InputDialog.Result>
+              <OutArgument x:TypeArguments="x:String">[userName]</OutArgument>
+            </ui:InputDialog.Result>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsPinned">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </ui:InputDialog>
+        </Sequence>
+      </ui:CommentOut.Body>
+    </ui:CommentOut>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: New tab" sap:VirtualizedContainerService.HintSize="434,1130" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="baf8d764-468e-4257-8d6e-bc595bc41072" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,874" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'What is your name?*'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,216" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="HardwareEvents" ScopeIdentifier="baf8d764-468e-4257-8d6e-bc595bc41072" Text="[userName]" Version="V1">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.rpasamples.com/findunicornname" DesignTimeRectangle="746, 301, 453, 53" ElementType="InputBox" FriendlyName="'INPUT txtName'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzyAccuracy="0.46" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' aaname='' /&gt;" Guid="96116cf8-67a5-4f15-be90-3826fe048002" ImageBase64="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" InformativeScreenshot="93840b533d3c2e45e12a83f588b6be83.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Find Unicorn Name' /&gt;" SearchSteps="FuzzySelector, Image">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="746, 270, 190, 27" ElementType="Text" FriendlyName="'What is your name?*'" FullSelectorArgument="&lt;webctrl aaname='What is your name?*' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='What is your name?*' tag='SPAN' type='' check:text='What is your name?*' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NTypeInto>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Get Unicorn Name'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="baf8d764-468e-4257-8d6e-bc595bc41072" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.rpasamples.com/findunicornname" DesignTimeRectangle="858, 559, 225, 55" ElementType="Button" FriendlyName="'Get Unicorn Name'" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='' aaname='Get Unicorn Name' check:text='Get Unicorn Name' /&gt;" Guid="2e4d7b18-ac1d-47e0-8069-72a02f506444" ImageBase64="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" InformativeScreenshot="9580b1e2798b2e8dfeef5a0ec792dff9.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Find Unicorn Name' /&gt;" SearchSteps="FuzzySelector, Image" />
+              </uix:NClick.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get Text 'Fancy Nimble-Flower'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="baf8d764-468e-4257-8d6e-bc595bc41072" Version="V1">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.rpasamples.com/findunicornname" DesignTimeRectangle="854, 718, 211, 28" ElementType="Text" FriendlyName="'Fancy Nimble-Flower'" FullSelectorArgument="&lt;webctrl id='lblUnicornName' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='lblUnicornName' tag='DIV' type='' /&gt;" Guid="7bd1c742-e4e2-47d2-91de-e61841b3a09e" InformativeScreenshot="ebe20342eb4190c37f5c39fca4c547c7.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Find Unicorn Name' /&gt;" SearchSteps="FuzzySelector" />
+              </uix:NGetText.Target>
+              <uix:NGetText.Text>
+                <OutArgument x:TypeArguments="x:String">[unicornName]</OutArgument>
+              </uix:NGetText.Text>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NGetText>
+            <ui:WriteTextFile DisplayName="Write Text File" FileName="name.txt" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[unicornName]">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:WriteTextFile>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-10, 0, 1940, 1055" BrowserType="Edge" IconBase64="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" InformativeScreenshot="0777a0578cf46eecc676ebd354a1883f.png" IsExactTitleEnabled="True" Selector="&lt;html app='msedge.exe' url='https://www.rpasamples.com/findunicornname' /&gt;" Url="https://www.rpasamples.com/findunicornname" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsPinned">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
